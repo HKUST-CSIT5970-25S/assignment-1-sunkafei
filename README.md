@@ -20,6 +20,7 @@
     - For **Memory performance**, I choose the "Integer Copy" configuration.
     - For **TCP bandwidth**, I set the window size as 256K.
     - for **round-trip time**, I use the default configuration.
+    - The **CPU performance** metric represents the number of operations perfomed in one second. The **Memory performance** metric represents the number of integer copys performed in one second. The bandwidth represents the throughput of the network, whereas the round-trip time represents the latency of the network.
 2. (1 mark) Run your measurement tool on general purpose `t2.micro`, `t2.medium`, and `c5d.large` Linux instances, respectively, and find the performance differences among these instances. Launch all the instances in the **US East (N. Virginia)** region. Does the performance of EC2 instances increase commensurate with the increase of the number of vCPUs and memory resource?
 
     In order to answer this question, you need to complete the following table by filling out blanks with the measurement results corresponding to each instance type.
